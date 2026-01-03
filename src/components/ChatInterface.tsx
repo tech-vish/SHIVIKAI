@@ -194,7 +194,7 @@ export function ChatInterface() {
                           src={theme === 'dark' ? "/logo.png" : "/logo_black.png"} 
                           alt="Shivikai" 
                           fill
-                          className="object-contain object-left scale-150 origin-left" 
+                          className={`object-contain object-left origin-left ${theme === 'dark' ? 'scale-200' : 'scale-100'}`} 
                           priority
                         />
                     </div>
